@@ -125,4 +125,5 @@ return (
     </main>
   );
 }
-
+// app/news/page.tsx (Server component)
+// Removed duplicate NewsPage and default export to resolve redeclaration error.
