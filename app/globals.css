@@ -1,0 +1,53 @@
+/* app/globals.css */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 28px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #111;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.title {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.filters {
+  display:flex; gap:10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #d0d5db;
+  background: #f8fafc;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn:active { transform: translateY(1px); }
+
+.card {
+  display:flex;
+  gap: 16px;
+  align-items:flex-start;
+  padding: 16px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+
+.card + .card { margin-top: 14px; }
+
+.card-title { margin: 0 0 8px; font-size: 20px; font-weight: 700; }
+.card-desc { margin: 0 0 10px; color: #444; }
+.card-meta { color:#666; font-size:13px; }
